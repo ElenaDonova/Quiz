@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: rgb(83, 152, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  height: 100vh;
+}
+
+.quiz-title {
+  font-size: 70px;
+  color: rgb(54, 18, 112);
+  background-color: aliceblue;
+  width: 800px;
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(242, 205, 93);
+  position: relative;
+  border-radius: 20px;
+}
+
+.game {
+  display: block;
+}
+
+.content {
+  padding: 50px;
+}
+
+.question {
+  font-size: 40px;
+  color: rgb(54, 18, 112);
+}
+
+.answer {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgba(58, 23, 114, 0.774);
+}
+
+input {
+  cursor: pointer;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+
+.submit {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  background-color: rgb(215, 65, 167);
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+.result {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+.result h1 {
+  color: rgb(54, 18, 112);
+  font-size: 50px;
+}
+
+.correct {
+  color: green;
+  font-size: 30px;
+}
+
+.wrong {
+  color: red;
+  font-size: 30px;
+}
+
+.score {
+  font-size: 30px;
+}
+
+.play {
+  color: white;
+  background-color: rgb(215, 65, 167);
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+@media(max-width: 810px) {
+    .container {
+        width: 100%;
+        height: 50%;
+    }
+    
+}
