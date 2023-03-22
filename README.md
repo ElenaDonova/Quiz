@@ -1,4 +1,3 @@
 # Quiz
-js quiz
-Quiz made with js to display the knowlrdge of the program
+Игра-квиз на vanila JavaScript
 https://elenadonova.github.io/Quiz/
